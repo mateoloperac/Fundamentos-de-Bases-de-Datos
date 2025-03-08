@@ -42,3 +42,8 @@
 -- 17. Categoriza los lugares por tamaño (Pequeño < 20000, Mediano 20000-50000, Grande > 50000).
 
 -- 18. Muestra la duración total del setlist para cada concierto.
+
+-- OTROS EJERCICIOS
+-- 19. Encontrar las canciones que nunca han sido incluidas en ningún setlist
+
+-- 20. El nombre de los artistas que no tienen conciertos programados

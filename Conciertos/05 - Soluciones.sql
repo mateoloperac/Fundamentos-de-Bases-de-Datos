@@ -128,3 +128,26 @@ JOIN Artista a ON c.artistaPrincipalId = a.artistaId
 JOIN Setlist s ON c.conciertoId = s.conciertoId
 JOIN Cancion can ON s.cancionId = can.cancionId
 GROUP BY c.conciertoId, a.nombre;
+
+-- OTROS EJERCICIOS
+-- 19. Encontrar las canciones que nunca han sido incluidas en ningún setlist
+select c.titulo
+from Cancion as c
+left join Setlist as s on s.cancionId = c.cancionId
+where s.setlistId is null
+
+-- 20. El nombre de los artistas que no tienen conciertos programados
+--opción 1
+SELECT nombre
+FROM Artista as a
+JOIN Concierto as c on c.artistaPrincipalId = a.artistaId
+WHERE c.conciertoId is null
+
+--opción 2
+SELECT nombre
+FROM Artista
+WHERE artistaId NOT IN (
+    SELECT DISTINCT artistaPrincipalId
+    FROM Concierto
+);
+

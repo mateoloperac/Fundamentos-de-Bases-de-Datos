@@ -1,6 +1,3 @@
--- Crear base de datos
-CREATE DATABASE ConciertosMedellin;
-
 -- Tabla Artista (antes Artistas)
 CREATE TABLE Artista (
     artistaId INT PRIMARY KEY IDENTITY(1,1),

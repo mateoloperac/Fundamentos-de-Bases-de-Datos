@@ -12,7 +12,6 @@ Este repositorio contiene el material didáctico y recursos para el modulo de Fu
 - Subqueries
 - Common table expressions
 - Funciones
-- Vistas
 
 ## 🎯 Objetivos del Curso
 
@@ -21,3 +20,10 @@ Este repositorio contiene el material didáctico y recursos para el modulo de Fu
 - Desarrollar habilidades en el uso de SQL
 - Entender los principios de normalización
 - Implementar buenas prácticas en el diseño de bases de datos
+
+## 📚 Recursos
+
+- Las presentaciones de las clases se encuentran disponibles en la raíz del proyecto en formato powerpoint
+- En la carpeta 01 - Conciertos se encuentran los scripts para crear la base de datos de conciertos, insertar datos, realizar consultas sencillas y ejercicios de ejemplo.
+- En la carpeta 02 - Netflix está un archivo de excel con los datos crudos de series y peliculas con categorías, generos y recomendaciones. Además se encuentran archivos CSV donde se desestructura el excel en diferentes tablas para importar a la base de datos.
+- En la carpeta 03 - Sembrado se encuentran los scripts con el DDL de la base de datos, un .zip con los archivos CSV para importar los datos y ejemplos de subqueries y funciones.
